@@ -1,4 +1,6 @@
-While learning about Grover's algorithm, I came across the "reflection" operator. It was simply stated as $`2\ket{s}\bra{s} - I`$.
+# Reflection Operator Derivation
+
+While learning about Grover's algorithm, I came across the "reflection" operator. It was simply stated as $`2\ket{s}\bra{s} -  \mathbb{1}`$.
 But there was no derivation shown. Perhaps this is a simple one for Physics major but for me this was a bit unsatisfying unless I could derive it. Internet search including ChatGPT and Copilot was futile. Google Gemini did a bit better but far from satisfying. Hence the derivation and this may help others.
 
 **Projection Operator:**
@@ -15,7 +17,7 @@ $`\implies R = \ket{s}\bra{s} - \ket{r}\bra{r}`$
 
 $`\implies R = \ket{s}\bra{s} + \ket{s}\bra{s} - \ket{r}\bra{r} - \ket{s}\bra{s}`$ 
 
-$`\implies R = 2\ket{s}\bra{s} - (\ket{r}\bra{r} + \ket{s}\bra{s})`$ but $`\ket{r}\bra{r} + \ket{s}\bra{s} = I `$
+$`\implies R = 2\ket{s}\bra{s} - (\ket{r}\bra{r} + \ket{s}\bra{s})`$ but $`\ket{r}\bra{r} + \ket{s}\bra{s} =  \mathbb{1} `$
 
-Hence $`R = 2\ket{s}\bra{s} - I`$.
+Hence $`R = 2\ket{s}\bra{s} - \mathbb{1}`$.
 
