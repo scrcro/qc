@@ -10,11 +10,11 @@ Projection of a ket $`\ket{p}`$ on to another ket $`\ket{s}`$ is $`\ket{s}\brake
 Reflection of a ket $`\ket{p}`$ around another ket $`\ket{s}`$ can be achieved by keeping the component of $`\ket{p}`$ along $`\ket{s}`$ as is, and negating the component of $`\ket{p}`$ along perpendicular to $`\ket{s}`$ say ket $`\ket{r}`$. Hence, $`\ket{p} = \alpha\ket{s} + \beta\ket{r}`$. Therefore:  
 ```math
 \begin{align*}
-R\ket{p} = \alpha\ket{s} - \beta\ket{r}\\
-R\ket{p} = \ket{s}\braket{s|p} - \ket{r}\braket{r|p}\\
-\implies R = \ket{s}\bra{s} - \ket{r}\bra{r}\\
-\implies R = \ket{s}\bra{s} + \ket{s}\bra{s} - \ket{r}\bra{r} - \ket{s}\bra{s}\\
-\implies R = 2\ket{s}\bra{s} - (\ket{r}\bra{r} + \ket{s}\bra{s})\\   
-\implies R = 2\ket{s}\bra{s} - \mathbb{1} \ \because \ket{r}\bra{r} + \ket{s}\bra{s} =  \mathbb{1}
+R\ket{p} &= \alpha\ket{s} - \beta\ket{r}\\
+R\ket{p} &= \ket{s}\braket{s|p} - \ket{r}\braket{r|p}\\
+\implies R &= \ket{s}\bra{s} - \ket{r}\bra{r}\\
+\implies R &= \ket{s}\bra{s} + \ket{s}\bra{s} - \ket{r}\bra{r} - \ket{s}\bra{s}\\
+\implies R &= 2\ket{s}\bra{s} - (\ket{r}\bra{r} + \ket{s}\bra{s})\\   
+\implies R &= 2\ket{s}\bra{s} - \mathbb{1} \   &\because \ket{r}\bra{r} + \ket{s}\bra{s} =  \mathbb{1}
 \end{align*}
 ```
