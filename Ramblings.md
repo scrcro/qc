@@ -7,7 +7,7 @@ But there was no derivation shown. Perhaps this is a simple one for Physics majo
 Projection of a ket $`\ket{p}`$ on to another ket $`\ket{s}`$ is $`\ket{s}\braket{s|p}`$. This simplifies to $`\alpha\ket{s}`$, where $`\alpha = \braket{s|p}`$. Clearly, this is the component of $`\ket{p}`$ on  $`\ket{s}`$. 
 
 **Reflection:**
-Reflection of a ket $`\ket{p}`$ around another ket $`\ket{s}`$ can be achieved by keeping the component of $`\ket{p}`$ along $`\ket{s}`$ as is, and negating the component of $`\ket{p}`$ along perpendicular to $`\ket{s}`$ say ket $`\ket{r}`$. Hence, $`\ket{p} = \alpha\ket{s} + \beta\ket{r}`$. Therefore:  
+Reflection of a ket $`\ket{p}`$ around another ket $`\ket{s}`$ can be achieved by keeping the component of $`\ket{p}`$ along $`\ket{s}`$ as is, and negating the component of $`\ket{p}`$ along perpendicular to $`\ket{s}`$ say ket $`\ket{r}`$. Hence if, $`\ket{p} = \alpha\ket{s} + \beta\ket{r}`$. Then:  
 ```math
 \begin{align*}
 R\ket{p} &= \alpha\ket{s} - \beta\ket{r}\\
