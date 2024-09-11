@@ -18,3 +18,8 @@ R\ket{p} &= \ket{s}\braket{s|p} - \ket{r}\braket{r|p}\\
 \implies R &= 2\ket{s}\bra{s} - \mathbb{1} \   &\because \ket{r}\bra{r} + \ket{s}\bra{s} =  \mathbb{1}
 \end{align*}
 ```
+
+# Grover's Algorithm : Oracle Formation
+
+While learning about Grover's alogrithm, I came across the "oracle". In most implementation and examples, the "oracle" seem to already solve the search problem. How? We say the "oracle" is able to "mark" the desired "state(s)". Weill if they are able to do that then why search using Grover's algorithm? 
+Here is what I figured eventually, the "oracle" is indeed able to mark but we need to query the "oracle" with the inputs. Where Grover's algorithm wins is the number of query one would have to make to the **"oracle"** vs a classical "oracle" that does the same. Many hours spent on internet search kind of points to this and this makes sense too. 
