@@ -4,10 +4,10 @@ While learning about Grover's algorithm, I came across the "reflection" operator
 But there was no derivation shown. Perhaps this is a simple one for Physics major but for me this was a bit unsatisfying unless I could derive it. Internet search including ChatGPT and Copilot was futile. Google Gemini did a bit better but far from satisfying. Hence the derivation and this may help others.
 
 **Projection Operator:**
-Projection of a ket $`\ket{p}`$ on to another ket $`\ket{s}`$ is $`\ket{s}\braket{s|p}`$. This simplifies to $`\alpha\ket{s}`$, where $`\alpha = \braket{s|p}`$. Clearly, this is the component of $`\ket{p}`$ on  $`\ket{s}`$. 
+Projection of a ket $`\ket{p}`$ on to another ket $`\ket{s}`$ is $`\ket{s}\braket{s|p}`$. This simplifies to $`\alpha\ket{s}`$, where $`\alpha = \braket{s|p}`$. Clearly, this is the component of $`\ket{p}`$ along  $`\ket{s}`$. 
 
 **Reflection:**
-Reflection of a ket $`\ket{p}`$ around another ket $`\ket{s}`$ can be achieved by keeping the component of $`\ket{p}`$ along $`\ket{s}`$ as is, and negating the component of $`\ket{p}`$ along orthogonal to $`\ket{s}`$ say ket $`\ket{r}`$. Hence if, $`\ket{p} = \alpha\ket{s} + \beta\ket{r}`$. Then:  
+Reflection of a ket $`\ket{p}`$ around another ket $`\ket{s}`$ can be achieved by keeping the component of $`\ket{p}`$ along $`\ket{s}`$ as is, and negating the component of $`\ket{p}`$, say ket $`\ket{r}`$, along orthogonal to $`\ket{s}`$. Hence if, $`\ket{p} = \alpha\ket{s} + \beta\ket{r}`$. Then:  
 ```math
 \begin{align*}
 R\ket{p} &= \alpha\ket{s} - \beta\ket{r}\\
